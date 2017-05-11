@@ -9,6 +9,7 @@
 import UIKit
 
 struct Product {
+    var id: String
     var name: String
     var price: Double
 }

@@ -20,6 +20,8 @@
 		BC623C9A1EC41CCA00A4653B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C991EC41CCA00A4653B /* HomeViewController.swift */; };
 		BC623C9C1EC41DA100A4653B /* SampleLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C9B1EC41DA100A4653B /* SampleLibrary.swift */; };
 		BC623C9E1EC41DAD00A4653B /* SampleResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C9D1EC41DAD00A4653B /* SampleResource.swift */; };
+		BC623CA11EC41DFE00A4653B /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC623C9F1EC41DFE00A4653B /* Model.xcdatamodeld */; };
+		BC623CA31EC41E8300A4653B /* EntityMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623CA21EC41E8300A4653B /* EntityMapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		BC623C991EC41CCA00A4653B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		BC623C9B1EC41DA100A4653B /* SampleLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLibrary.swift; sourceTree = "<group>"; };
 		BC623C9D1EC41DAD00A4653B /* SampleResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleResource.swift; sourceTree = "<group>"; };
+		BC623CA01EC41DFE00A4653B /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BC623CA21EC41E8300A4653B /* EntityMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityMapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 			isa = PBXGroup;
 			children = (
 				BC623C8A1EC3014600A4653B /* Product.swift */,
+				BC623CA21EC41E8300A4653B /* EntityMapper.swift */,
+				BC623C9F1EC41DFE00A4653B /* Model.xcdatamodeld */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -255,8 +261,10 @@
 				BC623C9C1EC41DA100A4653B /* SampleLibrary.swift in Sources */,
 				BC623C961EC302A200A4653B /* StringExtension.swift in Sources */,
 				BC623C921EC3026400A4653B /* ProductService.swift in Sources */,
+				BC623CA31EC41E8300A4653B /* EntityMapper.swift in Sources */,
 				BC623C8B1EC3014600A4653B /* Product.swift in Sources */,
 				BC623C8D1EC3015600A4653B /* ProductRepository.swift in Sources */,
+				BC623CA11EC41DFE00A4653B /* Model.xcdatamodeld in Sources */,
 				BC623C9E1EC41DAD00A4653B /* SampleResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +432,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC623C9F1EC41DFE00A4653B /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC623CA01EC41DFE00A4653B /* Model.xcdatamodel */,
+			);
+			currentVersion = BC623CA01EC41DFE00A4653B /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BC623C631EC3000600A4653B /* Project object */;
 }

@@ -8,6 +8,8 @@
 
 import UIKit
 
+// Use MagicalRecord & CoreData
+
 class ProductRepository {
     func add(_ product: Product) {
         

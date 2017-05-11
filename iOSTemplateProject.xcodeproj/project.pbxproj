@@ -18,6 +18,8 @@
 		BC623C961EC302A200A4653B /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C951EC302A200A4653B /* StringExtension.swift */; };
 		BC623C981EC41C8200A4653B /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C971EC41C8200A4653B /* ProductListViewController.swift */; };
 		BC623C9A1EC41CCA00A4653B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C991EC41CCA00A4653B /* HomeViewController.swift */; };
+		BC623C9C1EC41DA100A4653B /* SampleLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C9B1EC41DA100A4653B /* SampleLibrary.swift */; };
+		BC623C9E1EC41DAD00A4653B /* SampleResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC623C9D1EC41DAD00A4653B /* SampleResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		BC623C951EC302A200A4653B /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		BC623C971EC41C8200A4653B /* ProductListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
 		BC623C991EC41CCA00A4653B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BC623C9B1EC41DA100A4653B /* SampleLibrary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleLibrary.swift; sourceTree = "<group>"; };
+		BC623C9D1EC41DAD00A4653B /* SampleResource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleResource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 		BC623C811EC3009900A4653B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				BC623C9B1EC41DA100A4653B /* SampleLibrary.swift */,
 			);
 			path = Libraries;
 			sourceTree = "<group>";
@@ -114,6 +119,7 @@
 		BC623C841EC3009900A4653B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				BC623C9D1EC41DAD00A4653B /* SampleResource.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -246,10 +252,12 @@
 				BC623C941EC3028300A4653B /* APIService.swift in Sources */,
 				BC623C981EC41C8200A4653B /* ProductListViewController.swift in Sources */,
 				BC623C9A1EC41CCA00A4653B /* HomeViewController.swift in Sources */,
+				BC623C9C1EC41DA100A4653B /* SampleLibrary.swift in Sources */,
 				BC623C961EC302A200A4653B /* StringExtension.swift in Sources */,
 				BC623C921EC3026400A4653B /* ProductService.swift in Sources */,
 				BC623C8B1EC3014600A4653B /* Product.swift in Sources */,
 				BC623C8D1EC3015600A4653B /* ProductRepository.swift in Sources */,
+				BC623C9E1EC41DAD00A4653B /* SampleResource.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

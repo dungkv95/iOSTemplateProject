@@ -9,6 +9,8 @@
 import UIKit
 
 class ProductListViewController: UIViewController {
+    
+    var productService: ProductServiceProtocol! // can use DI container to inject dependency
 
     override func viewDidLoad() {
         super.viewDidLoad()

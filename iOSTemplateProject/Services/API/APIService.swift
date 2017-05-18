@@ -8,8 +8,6 @@
 
 import UIKit
 
-// User Alamofire & ObjectMapper
+// Use Alamofire & ObjectMapper
 
-class APIService {
 
-}
